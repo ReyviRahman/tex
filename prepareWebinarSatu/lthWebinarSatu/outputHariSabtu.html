@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Food Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body{
+      font-family: "Madimi One", sans-serif;
+    }
+    .btn-signup-border{
+      border: 1px solid rgb(0, 151, 151);
+      border-radius: 50px;
+      color: rgb(0, 151, 151);
+    }
+    .btn-signup-border:hover{
+      background-color:rgb(0, 151, 151);
+      color: white;
+    }
+    .btn-login{
+      color: rgb(0, 151, 151);
+      border-radius: 50px;
+
+    }
+    .btn-login:hover{
+      background-color:rgb(0, 151, 151);
+      color: white;
+    }
+    .btn-how-to-order:hover{
+      background-color: #1B3C73;
+    }
+
+  </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #1B3C73;">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#" style="color: rgb(0, 151, 151);">YukssMakan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-medium" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#">Offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-login px-3" type="submit">Login</button>
+          <button class="btn btn-signup-border px-3" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" style="background-color: rgb(0, 151, 151);">
+    <div class="row">
+      <div class="col d-flex align-items-center justify-content-center">
+        <div>
+          <h1 class="display-3" style="color: #1B3C73;">All Fast Food is <br> Available at <br> YukssMakan</h1>
+          <div class="d-flex">
+            <div>
+              <img class= "p-0" src="prof-pic-modified.png" width="50px" alt="">
+            </div>
+            <div>
+              <p>We Are Just A Click Away When You <br>
+                Crave For Delicious Fast Food</p>
+            </div>
+          </div>
+          <div class="d-flex mt-4">
+              <button type="button" class="btn" style="background-color: #1B3C73; color: white; border-radius: 50px; margin-right: 10px;">
+                <svg width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.75725 1.07121C5.99404 1.21328 6.07082 1.52041 5.92875 1.7572L3.3831 5.99995H12.6169L10.0713 1.7572C9.92918 1.52041 10.006 1.21328 10.2428 1.07121C10.4795 0.929133 10.7867 1.00592 10.9287 1.24271L13.7831 5.99995H15C15.5523 5.99995 16 6.44767 16 6.99995V7.99995C16 8.55224 15.5523 8.99995 15 8.99995V13.5002C15 14.881 13.8806 16 12.5 16H3.5C2.11937 16 1 14.881 1 13.5002V8.99995C0.447715 8.99995 0 8.55224 0 7.99995V6.99995C0 6.44767 0.447715 5.99995 1 5.99995H2.2169L5.07125 1.24271C5.21333 1.00592 5.52046 0.929133 5.75725 1.07121ZM2 8.99995V13.5002C2 14.3285 2.67149 15 3.5 15H12.5C13.3285 15 14 14.3285 14 13.5002V8.99995H2ZM1 6.99995V7.99995H15V6.99995H1ZM4 9.99995C4.27614 9.99995 4.5 10.2238 4.5 10.5V13.5C4.5 13.7761 4.27614 14 4 14C3.72386 14 3.5 13.7761 3.5 13.5V10.5C3.5 10.2238 3.72386 9.99995 4 9.99995ZM6 9.99995C6.27614 9.99995 6.5 10.2238 6.5 10.5V13.5C6.5 13.7761 6.27614 14 6 14C5.72386 14 5.5 13.7761 5.5 13.5V10.5C5.5 10.2238 5.72386 9.99995 6 9.99995ZM8 9.99995C8.27614 9.99995 8.5 10.2238 8.5 10.5V13.5C8.5 13.7761 8.27614 14 8 14C7.72386 14 7.5 13.7761 7.5 13.5V10.5C7.5 10.2238 7.72386 9.99995 8 9.99995ZM10 9.99995C10.2761 9.99995 10.5 10.2238 10.5 10.5V13.5C10.5 13.7761 10.2761 14 10 14C9.72386 14 9.5 13.7761 9.5 13.5V10.5C9.5 10.2238 9.72386 9.99995 10 9.99995ZM12 9.99995C12.2761 9.99995 12.5 10.2238 12.5 10.5V13.5C12.5 13.7761 12.2761 14 12 14C11.7239 14 11.5 13.7761 11.5 13.5V10.5C11.5 10.2238 11.7239 9.99995 12 9.99995Z" fill="white"/>
+                  </svg> Buy Now
+              </button>
+              <button type="button" class="btn btn-how-to-order" style="border-radius: 50px;">
+                <svg width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8ZM6.79062 5.09313C6.63821 4.98427 6.43774 4.96972 6.27121 5.05542C6.10467 5.14112 6 5.31271 6 5.5V10.5C6 10.6873 6.10467 10.8589 6.27121 10.9446C6.43774 11.0303 6.63821 11.0157 6.79062 10.9069L10.2906 8.40687C10.422 8.31301 10.5 8.16148 10.5 8C10.5 7.83853 10.422 7.68699 10.2906 7.59313L6.79062 5.09313Z" fill="black"/>
+                  </svg> How To Order
+              </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <img src="burger.png" alt="" class="float-end">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 p-5" style="border: 1px solid rgb(0, 151, 151); border-radius: 30px;">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex">
+          <button class="btn me-3" style="background-color: orange; border-radius: 50px; width: 70px; height: 70px;"><svg width="40" height="40" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3.5C0 2.67157 0.671573 2 1.5 2H10.5C11.3284 2 12 2.67157 12 3.5V5H13.0194C13.4751 5 13.906 5.20713 14.1907 5.56296L15.6713 7.41374C15.8841 7.67971 16 8.01017 16 8.35078V10.5C16 11.3284 15.3284 12 14.5 12H14C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12H5C5 13.1046 4.10457 14 3 14C1.89543 14 1 13.1046 1 12C1 11.9716 1.00059 11.9434 1.00176 11.9153C0.418245 11.7098 0 11.1538 0 10.5V3.5ZM1.29396 10.9557C1.64562 10.3824 2.27815 10 3 10C3.74028 10 4.38663 10.4022 4.73244 11H10.2676C10.4432 10.6964 10.6964 10.4432 11 10.2676V3.5C11 3.22386 10.7761 3 10.5 3H1.5C1.22386 3 1 3.22386 1 3.5V10.5C1 10.7027 1.1206 10.8772 1.29396 10.9557ZM12 10C12.7403 10 13.3866 10.4022 13.7324 11H14.5C14.7761 11 15 10.7761 15 10.5V8.35078C15 8.23725 14.9614 8.12709 14.8904 8.03843L13.4098 6.18765C13.3149 6.06905 13.1713 6 13.0194 6H12V10ZM3 11C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13C3.55228 13 4 12.5523 4 12C4 11.4477 3.55228 11 3 11ZM12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11Z" fill="black"/>
+            </svg>
+          </button>
+          <div>
+            <h1>Fast Delivery</h1>
+            <p>The Food Will Be Delivered To Your Home Within 1-2 Hours Of Your Ordering</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <button class="btn me-3" style="background-color: orange; border-radius: 50px; width: 70px; height: 70px;"><img src="arrow-repeat.svg" alt="">
+          </button>
+          <div>
+            <h1>Fresh Food</h1>
+            <p>The Food Will Be Delivered To Your Home Within 1-2 Hours Of Your Ordering</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <button class="btn me-3" style="background-color: orange; border-radius: 50px; width: 70px; height: 70px;"><img src="box-seam-fill.svg" alt="">
+          </button>
+          <div>
+            <h1>Free Delivery</h1>
+            <p>The Food Will Be Delivered To Your Home Within 1-2 Hours Of Your Ordering</p>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 120px;">
+    <h1 class="display-5" style="color: #1B3C73;">Best Delivered <br> Categories </h1>
+    <div class="row">
+      <div class="col-4 text-center">
+        <img src="burger.png" class="mx-auto d-block" width="90%" alt="">
+        <h3 class="text-center">Burger</h3>
+        <a class="icon-link icon-link-hover" href="#">
+          Order Now
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="rgb(0, 151, 151)"/>
+            </svg>
+        </a>
+      </div>
+      <div class="col-4 text-center">
+        <img src="pizza.png" class="mx-auto d-block" width="90%" alt="">
+        <h3 class="text-center">Pizza</h3>
+        <a class="icon-link icon-link-hover" href="#">
+          Order Now
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="rgb(0, 151, 151)"/>
+            </svg>
+        </a>
+      </div>
+      <div class="col-4 text-center">
+        <div class="d-flex align-items-center" style="height: 320px;">
+          <img src="french-fries.png" class="mx-auto d-block" width="90%" alt="">
+        </div>
+        <h3 class="text-center">French Fries</h3>
+        <a class="icon-link icon-link-hover" href="#">
+          Order Now
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="rgb(0, 151, 151)"/>
+            </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" style="margin-top: 120px;">
+    <h1 class="display-5" style="color: #1B3C73;">Our Regular Menu</h1>
+    <div class="d-flex justify-content-end">
+      <button class="btn px-4" style="background-color: rgb(0, 151, 151); color: white; border-radius: 50px; margin-right: 10px;">See All</button>
+    </div>
+    <div class="row gy-4 mt-1">
+      <div class="col-4">
+        <div style="background-color: rgb(0, 151, 151); border-radius: 20px;">
+          <div class="d-flex align-items-center">
+            <div>
+              <img src="burger.png" width="150px" alt="">
+            </div>
+            <div>
+              <h3 class="text-white">Humberger</h3>
+              <h5 class="text-white">Rp 20.000</h5>
+              <a class="icon-link-hover" style="color: white;" href="#">
+                Order Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="white"/>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div style="background-color: rgb(0, 151, 151); border-radius: 20px;">
+          <div class="d-flex align-items-center">
+            <div>
+              <img src="burger.png" width="150px" alt="">
+            </div>
+            <div>
+              <h3 class="text-white">Humberger</h3>
+              <h5 class="text-white">Rp 20.000</h5>
+              <a class="icon-link-hover" style="color: white;" href="#">
+                Order Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="white"/>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div style="background-color: rgb(0, 151, 151); border-radius: 20px;">
+          <div class="d-flex align-items-center">
+            <div>
+              <img src="burger.png" width="150px" alt="">
+            </div>
+            <div>
+              <h3 class="text-white">Humberger</h3>
+              <h5 class="text-white">Rp 20.000</h5>
+              <a class="icon-link-hover" style="color: white;" href="#">
+                Order Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="white"/>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div style="background-color: rgb(0, 151, 151); border-radius: 20px;">
+          <div class="d-flex align-items-center">
+            <div>
+              <img src="burger.png" width="150px" alt="">
+            </div>
+            <div>
+              <h3 class="text-white">Humberger</h3>
+              <h5 class="text-white">Rp 20.000</h5>
+              <a class="icon-link-hover" style="color: white;" href="#">
+                Order Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="white"/>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div style="background-color: rgb(0, 151, 151); border-radius: 20px;">
+          <div class="d-flex align-items-center">
+            <div>
+              <img src="burger.png" width="150px" alt="">
+            </div>
+            <div>
+              <h3 class="text-white">Humberger</h3>
+              <h5 class="text-white">Rp 20.000</h5>
+              <a class="icon-link-hover" style="color: white;" href="#">
+                Order Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="white"/>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div style="background-color: rgb(0, 151, 151); border-radius: 20px;">
+          <div class="d-flex align-items-center">
+            <div>
+              <img src="burger.png" width="150px" alt="">
+            </div>
+            <div>
+              <h3 class="text-white">Humberger</h3>
+              <h5 class="text-white">Rp 20.000</h5>
+              <a class="icon-link-hover" style="color: white;" href="#">
+                Order Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1 8C1 7.72386 1.22386 7.5 1.5 7.5L13.2929 7.5L10.1464 4.35355C9.95118 4.15829 9.95118 3.84171 10.1464 3.64645C10.3417 3.45118 10.6583 3.45118 10.8536 3.64645L14.8536 7.64645C15.0488 7.84171 15.0488 8.15829 14.8536 8.35355L10.8536 12.3536C10.6583 12.5488 10.3417 12.5488 10.1464 12.3536C9.95118 12.1583 9.95118 11.8417 10.1464 11.6464L13.2929 8.5H1.5C1.22386 8.5 1 8.27614 1 8Z" fill="white"/>
+                  </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container" style="margin-top: 110px;">
+    <div class="row gy-3">
+      <div class="col-sm-6 p-0">
+        <img src="discount1.jpg" class="rounded-4" alt="" style="width: 100%;" height="100%">
+      </div>
+      <div class="col-sm-6">
+        <div class="row gy-3">
+          <div class="d-flex " style="height: 160px;">
+            <img src="discount2.jpg" class="rounded-4" width="100%" alt="">
+          </div>
+          <div class="d-flex " style="height: 160px;">
+            <img src="discount3.jpg" class="rounded-4" width="100%" alt="">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="margin-top: 110px; background-color: rgb(0, 151, 151);">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <div>
+            <h3 style="color: #1B3C73;">YukssMakan</h3>
+            <p>Continue YukssMakan 2024 all rights reserved</p>
+          </div>
+          <div class="mt-5">
+            <h3 style="color: #1B3C73;">Follow Us On</h3>
+            <a href="https://www.instagram.com/incodejambi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="instagram.svg" alt=""></a>
+            <a href="#"><img src="facebook.svg" class="ms-3" alt=""></a>
+            <a href="#"><img src="twitter-x.svg" class="ms-3" alt=""></a>
+            <a href="#"><img src="tiktok.svg" class="ms-3" alt=""></a>
+          </div>
+
+        </div>
+        <div class="col-sm-2">
+          <h3 style="color: #1B3C73;">Menu</h3>
+          <p><a href="#" class="text-dark">Home</a></p>
+          <p><a href="#" class="text-dark">Offer</a></p>
+          <p><a href="#" class="text-dark">Service</a></p>
+          <p><a href="#" class="text-dark">Menu</a></p>
+          <p><a href="#" class="text-dark">About Us</a></p>
+        </div>
+        <div class="col-sm-2">
+          <h3 style="color: #1B3C73;">Information</h3>
+          <p>Menu</p>
+          <p>Quality</p>
+          <p>Make a Choice</p>
+          <p>Salad with Vegetable</p>
+          <p>Fast Delivery</p>
+          <p>Subscribe</p>
+        </div>
+        <div class="col-sm-2">
+          <h3 style="color: #1B3C73;">Contact</h3>
+          <p>+62 813 7261 7282</p>
+          <p>Explore</p>
+          <p>YukssMakan@gmail.com</p>
+          <p>Jln. Pemuda no 17 Jambi</p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
